@@ -14,6 +14,8 @@ document.body.appendChild(createSection);
 
 const createColorPalette = ['black', 'orange', 'green', 'yellow'];
 
+// Criei essa estrutura para fazer os requisitos 2 e 3, e com a ajuda do colega Guilherme Azevedo o otimizei para que funcionasse perfeitamente.
+
 for (let index = 0; index < createColorPalette.length; index +=1) {
     let createDiv = document.createElement('div');
     createDiv.className = 'color';
@@ -22,11 +24,41 @@ for (let index = 0; index < createColorPalette.length; index +=1) {
     createDiv.style.borderColor = 'black';
     createDiv.style.backgroundColor = createColorPalette[index];
     createDiv.style.display = 'inline-block';
-    createDiv.style.width = '70px';
-    createDiv.style.height = '70px';
-
+    createDiv.style.width = '40px';
+    createDiv.style.height = '40px';
     createSection.appendChild(createDiv);
    }
+
+   const createH1dois = document.createElement('h1'); 
+   createH1dois.innerText = 'Quadro de Pixels';
+   createH1dois.id = 'quadroPixels';
+   document.body.appendChild(createH1dois);
+
+   const createSection2 = document.createElement('section');
+createSection2.id = 'pixel-board';
+document.body.appendChild(createSection2);
+
+for (let index = 0; index < 5; index += 1) {
+    let createDivMae = document.createElement('div');
+    let takeSection = document.querySelector('#pixel-board');
+    for (let index = 0; index < 5; index += 1) {
+        let createDivChild = document.createElement('div');
+        createDivChild.style.border = '1px solid black';
+        createDivChild.style.width = '40px';
+        createDivChild.style.height = '40px';
+        createDivChild.style.display = 'inline-block';
+        createDivChild.classList.add('pixel');
+        createDivMae.appendChild(createDivChild);
+        takeSection.appendChild(createDivMae);
+    }
+}
+
+
+
+
+
+
+
 
 
 
