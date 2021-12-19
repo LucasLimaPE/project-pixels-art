@@ -16,6 +16,11 @@ const createColorPalette = ['black', 'orange', 'green', 'yellow'];
 
 // Criei essa estrutura para fazer os requisitos 2 e 3, e com a ajuda do colega Guilherme Azevedo o otimizei para que funcionasse perfeitamente.
 
+const createButton = document.createElement('button');
+createButton.id = 'clear-board';
+createButton.innerText = 'Limpar'
+document.body.appendChild(createButton);
+
 for (let index = 0; index < createColorPalette.length; index +=1) {
     let createDiv = document.createElement('div');
     createDiv.className = 'color';
@@ -77,11 +82,8 @@ for (let index = 0; index < takeDivChild.length; index += 1) {
     function changeColor3(event) {
         event.target.style.backgroundColor = window.getComputedStyle(document.querySelector('.selected')).backgroundColor;
 
-
-
-
-
-
+    
+        //Tirar o ponto pois conteḿ erro de sintaxe, quando descreve classList não precisa descrever que é uma classe.
 
     // event.target.style.backgroundColor = 'black';
     // console.log((takeCreateDiv[1].classList.contains('.selected')));
@@ -97,7 +99,12 @@ for (let index = 0; index < takeDivChild.length; index += 1) {
     //     }
     // 
     }
-
+    
+    createButton.addEventListener('click', function() {
+        for (let index = 0 ; index < takeDivChild.length; index += 1) {
+            takeDivChild[index].style.backgroundColor = 'white';
+        }
+    });
     
 
 
