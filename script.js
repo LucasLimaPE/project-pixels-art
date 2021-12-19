@@ -28,6 +28,8 @@ for (let index = 0; index < createColorPalette.length; index +=1) {
     createDiv.style.height = '40px';
     createSection.appendChild(createDiv);
    }
+   const takeCreateDiv = document.querySelectorAll('.color');
+   takeCreateDiv[0].classList.add('selected');
 
    const createH1dois = document.createElement('h1'); 
    createH1dois.innerText = 'Quadro de Pixels';
@@ -52,6 +54,18 @@ for (let index = 0; index < 5; index += 1) {
         takeSection.appendChild(createDivMae);
     }
 }
+const takeDivChild = document.querySelectorAll('.pixel');
+
+for (let index = 0; index < takeDivChild.length; index += 1) {
+    takeDivChild[index].addEventListener('click', changeColor);
+};
+function changeColor(event) {
+    event.target.style.backgroundColor = 'black';
+}
+
+
+
+
 
 
 
