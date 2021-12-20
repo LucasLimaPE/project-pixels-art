@@ -14,11 +14,11 @@ document.body.appendChild(createSection);
 
 const createColorPalette = ['black', 'orange', 'green', 'yellow'];
 
-// Desenolvi este projeto com a ajuda dos colegas Guilherme Azevedo e Imar Mendes.
+// Desenvolvi este projeto com a ajuda dos colegas Guilherme Azevedo, Imar Mendes e Tiago Zardo.
 
 const createButton = document.createElement('button');
 createButton.id = 'clear-board';
-createButton.innerText = 'Limpar'
+createButton.innerText = 'Limpar';
 document.body.appendChild(createButton);
 
 for (let index = 0; index < createColorPalette.length; index +=1) {
@@ -50,6 +50,9 @@ for (let index = 0; index < 5; index += 1) {
     let takeSection = document.querySelector('#pixel-board');
     for (let index = 0; index < 5; index += 1) {
         let createDivChild = document.createElement('div');
+        createDivChild.style.marginLeft = '-1px';
+        createDivChild.style.marginTop = '-5px';
+        createDivChild.style.backgroundColor = 'white';
         createDivChild.style.border = '1px solid black';
         createDivChild.style.width = '40px';
         createDivChild.style.height = '40px';
