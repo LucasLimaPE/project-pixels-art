@@ -14,7 +14,7 @@ document.body.appendChild(createSection);
 
 const createColorPalette = ['black', 'orange', 'green', 'yellow'];
 
-// Criei essa estrutura para fazer os requisitos 2 e 3, e com a ajuda do colega Guilherme Azevedo o otimizei para que funcionasse perfeitamente.
+// Desenolvi este projeto com a ajuda dos colegas Guilherme Azevedo e Imar Mendes.
 
 const createButton = document.createElement('button');
 createButton.id = 'clear-board';
