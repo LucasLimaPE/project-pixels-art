@@ -1,3 +1,35 @@
+#black-in-palette {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: black;
+}
+
+#orange-in-palette {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: orange;
+}
+
+#green-in-palette {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: green;
+}
+
+#yellow-in-palette {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: yellow;
+}
+
 .pixel {
-    border: 1px solid black 
+  border: 1px solid black;
 }
