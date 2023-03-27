@@ -12,7 +12,7 @@
 
 // document.body.appendChild(createH1dois);
 
-const addEventToelements = (array, func) => {
+const addEventToElements = (array, func) => {
   for (let index = 0; index < array.length; index += 1) {
     array[index].addEventListener('click', func);
   }
@@ -26,7 +26,7 @@ function changeSelectedColor(event) {
 
 const colorPallet = document.getElementsByClassName('color');
 
-addEventToelements(colorPallet, changeSelectedColor);
+addEventToElements(colorPallet, changeSelectedColor);
 
 const changePixelColor = (event) => {
   const selectedColor = window
@@ -37,7 +37,7 @@ const changePixelColor = (event) => {
 
 const pixels = document.getElementsByClassName('pixel');
 
-addEventToelements(pixels, changePixelColor);
+addEventToElements(pixels, changePixelColor);
 
 // addEventInPixel(pixels);
 
