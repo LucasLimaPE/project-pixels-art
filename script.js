@@ -4,10 +4,6 @@
 
 // createButton.innerText = 'Limpar';
 
-// const takeCreateDiv = document.querySelectorAll('.color');
-
-// takeCreateDiv[0].classList.add('selected');
-
 // const createH1dois = document.createElement('h1');
 
 // createH1dois.innerText = 'Quadro de Pixels';
