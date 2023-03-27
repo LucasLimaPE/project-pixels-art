@@ -16,30 +16,6 @@
 
 // document.body.appendChild(createH1dois);
 
-// const createSection2 = document.createElement('section');
-
-// createSection2.id = 'pixel-board';
-
-// document.body.appendChild(createSection2);
-
-// for (let index = 0; index < 5; index += 1) {
-//   const createDivMae = document.createElement('div');
-//   const takeSection = document.querySelector('#pixel-board');
-//   for (let index = 0; index < 5; index += 1) {
-//     const createDivChild = document.createElement('div');
-//     createDivChild.style.marginLeft = '-1px';
-//     createDivChild.style.marginTop = '-5px';
-//     createDivChild.style.backgroundColor = 'white';
-//     createDivChild.style.border = '1px solid black';
-//     createDivChild.style.width = '40px';
-//     createDivChild.style.height = '40px';
-//     createDivChild.style.display = 'inline-block';
-//     createDivChild.classList.add('pixel');
-//     createDivMae.appendChild(createDivChild);
-//     takeSection.appendChild(createDivMae);
-//   }
-// }
-
 // const takeDivChild = document.querySelectorAll('.pixel');
 
 // const takeCreateDiv0 = takeCreateDiv[0];
