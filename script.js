@@ -12,37 +12,34 @@
 
 // document.body.appendChild(createH1dois);
 
-// const takeDivChild = document.querySelectorAll('.pixel');
+const addEventToelements = (array, func) => {
+  for (let index = 0; index < array.length; index += 1) {
+    array[index].addEventListener('click', func);
+  }
+};
 
-// const takeCreateDiv0 = takeCreateDiv[0];
+function changeSelectedColor(event) {
+  const takeSelcted = document.querySelector('.selected');
+  takeSelcted.classList.remove('selected');
+  event.target.classList.add('selected');
+}
 
-// const takeCreateDiv1 = takeCreateDiv[1];
+const colorPallet = document.getElementsByClassName('color');
 
-// const takeCreateDiv2 = takeCreateDiv[2];
+addEventToelements(colorPallet, changeSelectedColor);
 
-// const takeCreateDiv3 = takeCreateDiv[3];
+const changePixelColor = (event) => {
+  const selectedColor = window
+    .getComputedStyle(document.querySelector('.selected')).backgroundColor;
+  const pixelToChangeColor = event.target;
+  pixelToChangeColor.style.backgroundColor = selectedColor;
+};
 
-// function changeColor2(event) {
-//   const takeSelcted = document.querySelector('.selected');
-//   takeSelcted.classList.remove('selected');
-//   event.target.classList.add('selected');
-// }
-// //
-// takeCreateDiv0.addEventListener('click', changeColor2);
+const pixels = document.getElementsByClassName('pixel');
 
-// takeCreateDiv1.addEventListener('click', changeColor2);
+addEventToelements(pixels, changePixelColor);
 
-// takeCreateDiv2.addEventListener('click', changeColor2);
-
-// takeCreateDiv3.addEventListener('click', changeColor2);
-
-// function changeColor3(event) {
-//   event.target.style.backgroundColor = window.getComputedStyle(document.querySelector('.selected')).backgroundColor;
-// }
-
-// for (let index = 0; index < takeDivChild.length; index += 1) {
-//   takeDivChild[index].addEventListener('click', changeColor3);
-// }
+// addEventInPixel(pixels);
 
 // createButton.addEventListener('click', () => {
 //   for (let index = 0; index < takeDivChild.length; index += 1) {
