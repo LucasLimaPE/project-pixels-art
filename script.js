@@ -1,33 +1,8 @@
-// Desenvolvi este projeto com a ajuda dos colegas Guilherme Azevedo, Imar Mendes e Tiago Zardo.
-
-// const createSection = document.createElement('section');
-
-// createSection.id = 'color-palette';
-
-// document.body.appendChild(createSection);
-
-// const createColorPalette = ['black', 'orange', 'green', 'yellow'];
+// Desenvolvi este projeto com a ajuda dos colegas Guilherme Azevedo, Imar Mendes e Tiago Zardo.;
 
 // const createButton = document.createElement('button');
 
-// createButton.id = 'clear-board';
-
 // createButton.innerText = 'Limpar';
-
-// document.body.appendChild(createButton);
-
-// for (let index = 0; index < createColorPalette.length; index += 1) {
-//   const createDiv = document.createElement('div');
-//   createDiv.className = 'color';
-//   createDiv.style.borderWidth = '1px';
-//   createDiv.style.borderStyle = 'solid';
-//   createDiv.style.borderColor = 'black';
-//   createDiv.style.backgroundColor = createColorPalette[index];
-//   createDiv.style.display = 'inline-block';
-//   createDiv.style.width = '40px';
-//   createDiv.style.height = '40px';
-//   createSection.appendChild(createDiv);
-// }
 
 // const takeCreateDiv = document.querySelectorAll('.color');
 
