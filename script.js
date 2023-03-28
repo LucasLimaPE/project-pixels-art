@@ -84,7 +84,6 @@ const createSecundaryDiv = (pixelLine) => {
     for (let index = 0; index < pixelLine; index += 1) {
       const item = document.createElement('div');
       item.classList.add('pixel');
-      console.log('pixel-line', divLine);
       divLine[x].appendChild(item);
     }
   }
