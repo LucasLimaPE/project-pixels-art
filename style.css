@@ -71,7 +71,7 @@ legend , label , #generate-board , #board-size , #clear-board {
 }
 
 #footer-container {
-  margin: 155px 5px 5px 5px;
+  margin: 155px 5px 5px;
   padding: 5px;
   display: flex;
   flex-direction: row;
