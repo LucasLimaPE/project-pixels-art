@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, serif;
+  color: black;
 }
 
 body {
@@ -61,8 +62,23 @@ legend , label , #generate-board , #board-size , #clear-board {
   width: 40px;
   height: 40px;
   background-color: white;
+  border-collapse: collapse;
 }
 
 .pixel-line {
   display: table-row;
+  border-collapse: collapse;
+}
+
+#footer-container {
+  margin: 155px 5px 5px 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #cce3de;
+  font-size: large;
 }
