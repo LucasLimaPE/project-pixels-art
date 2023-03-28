@@ -3,7 +3,7 @@
 ## :memo: Descrição
 Este projeto foi criado com o propósito de testar e exercitar as habilidades desenvolvidas no Módulo de Fundamentos do curso de Desenvolimento Web Full Stack na Trybe.
 
-O projeto consiste em implementar uma págine web que contem uma paleta de cores funcional que pode ser utilizada para criar desenhos em pixels, utilizando JavaScript, HTML e CSS.
+O projeto consiste em implementar uma página web que contém uma paleta de cores funcional que pode ser utilizada para criar desenhos em pixels, utilizando JavaScript, HTML e CSS.
 
 ## :books: Requisitos 
 1. Adicionar à página o título "Paleta de Cores".
@@ -43,12 +43,12 @@ O projeto consiste em implementar uma págine web que contem uma paleta de cores
   - Utilizando as atributos do input, deve-se fazer com que o input só aceite números maiores que zero.
   - O botão deve conter o texto "VQV".
   - O botão deve estar posicionado ao lado do input.
-  - Se nenhum valor for colocado no input ao clicar no botão, mostre uma alert com o texto:"Board inválido!".
+  - Se nenhum valor for colocado no input, ao clicar no botão, mostre uma alert com o texto:"Board inválido!".
   - O novo quadro de pixels deve ter todos os pixels preenchidos com a cor branca.
 
 11. Limite o tamanho mínimo e máximo do board que deve ser entre 5 e 50.
   - Caso seja inserido um valor menor que 5, deve-se considerar o valor 5 como padrão.
-  - caso seja inserido um valor maior que 50, deve-se considerar 50 como padrão.
+  - Caso seja inserido um valor maior que 50, deve-se considerar 50 como padrão.
 
 12. Fazer com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.
   - A cor preta ainda precisa estar presente e deve ser a primeira na sua paleta de cores.
@@ -94,4 +94,4 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ## :dart: Status do projeto
 
-Foram desenvolvidos 100% dos requisitos do projeto.
+Foram desenvolvidos 100% dos requisitos do projeto, incluindo requisitos bônus.
