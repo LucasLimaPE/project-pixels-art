@@ -1,33 +1,21 @@
-#black-in-palette {
-  border: 1px solid black;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  background-color: black;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, serif;
 }
 
-#orange-in-palette {
-  border: 1px solid black;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  background-color: orange;
+body {
+  background-color: #eaf4f4;
 }
 
-#green-in-palette {
+.color {
   border: 1px solid black;
+  display: inline-block;
   width: 40px;
   height: 40px;
-  display: inline-block;
-  background-color: green;
-}
-
-#yellow-in-palette {
-  border: 1px solid black;
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-  background-color: yellow;
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
 }
 
 .pixel {
@@ -36,4 +24,25 @@
   width: 40px;
   height: 40px;
   background-color: white;
+}
+
+#title-container {
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #cce3de;
+}
+
+#color-palette {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

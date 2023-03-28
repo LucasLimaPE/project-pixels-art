@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,33 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <div>
+    <div id="title-container">
         <h1 id="title">Paleta de Cores</h1>
     </div>
     <div id="color-palette">
         <div class="color selected" id="black-in-palette"></div>
-        <div class="color" id="orange-in-palette"></div>
-        <div class="color" id="green-in-palette"></div>
-        <div class="color" id="yellow-in-palette"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+    </div>
+    <div>
+        <form name="Criar Quadro">
+            <fieldset>
+                <legend>Crie seu quadro de pixels</legend>
+                <label for="board-size">Digite um número:</label>
+                <input 
+                type="number" 
+                placeholder="Insira um valor entre 5 e 50" 
+                name="board-size"
+                id="board-size"
+                min="1"
+                max="50"
+                >
+                <button id="generate-board">VQV</button>
+            </fieldset>
+        </form>
     </div>
     <div>
         <button id="clear-board">Limpar</button>
@@ -59,4 +78,5 @@
     </div>
     <script src='script.js'></script>
 </body>
+
 </html>
