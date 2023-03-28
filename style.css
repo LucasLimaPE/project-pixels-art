@@ -38,11 +38,16 @@ body {
   background: #cce3de;
 }
 
-#color-palette {
+#color-palette , #form-container {
   margin: 5px;
   padding: 5px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+legend , label , #generate-board , #board-size {
+  margin: 3px;
+  padding: 3px;
 }
